@@ -46,7 +46,7 @@
                     Нажмите кнопку играть, введите номер месяца (от 1 до 12) 
                     и вы узнаете к какому времени года он относится
                 </p>
-                <button class="play__button">Играть!</button>
+                <button class="play__button" onclick="firstGame()">Играть!</button>
             </div>
             
             <img src="./img/play-item-1.png" alt="Game 1" class="play__img">
@@ -59,13 +59,13 @@
             <img src="./img/play-item-2.png" alt="Game 2" class="play__imgSecond">
             
             <div class="play__info play__infoSecond">
-                <h2 class="play__title">Запомни слова </h2>
+                <h2 class="play__title">Запомни слова</h2>
                 
                 <p class="play__text play__textSecond ">
                     При нажатии на кнопку играть, 
                     вы увидите несколько слов, которые вам необходимо запомнить.
                 </p>
-                <button class="play__button">Играть!</button>
+                <button class="play__button" onclick="secondGame()">Играть!</button>
             </div>
            
         </div>
@@ -79,7 +79,7 @@
                     Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. 
                     У вас будет три попытки и две подсказки.
                 </p>
-                <button class="play__button">Играть!</button>
+                <button class="play__button" onclick="lastGame()">Играть!</button>
             </div>
         </div>
     </section>
@@ -87,5 +87,7 @@
     <footer class="footer center">
         <p class="footer__text">Все права защищены</p>
     </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>
