@@ -1,0 +1,133 @@
+@media (max-width: 735px) {
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .header{
+        background-image: url(../img/mobile-header-bg.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center; 
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+
+        &__title{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            width: 343px;
+        }
+
+        &__text{
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            width: 343px;
+        }
+
+        &__button{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            width: 234.06px;
+            height: 48.6px;
+        }
+    }
+
+    .game{
+
+        &__list{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        &__item{
+            width: 343px;
+            height: 300px;
+            
+            border-radius: 16px;
+        }
+    }
+
+    .play{
+
+        &__container{
+            display: flex;
+            flex-direction: column;
+
+            row-gap: 64px;
+            padding-top: 127px;
+            padding-bottom: 136px;
+        }
+
+        &__containerSecond{
+            padding-top: 85px;
+        }
+
+        &__info{
+            
+            padding-bottom: 64px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            row-gap:32px;
+        }
+
+        
+
+        &__title{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            
+            
+        }
+
+        &__text{
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            width: 343px;
+            
+        }
+
+        &__textLast{
+           
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;    
+            color: #FFFFFF;
+            width: 343px;
+        }
+
+        &__img{
+            
+            width: 344px;
+            height: 236px;
+        }   
+
+        &__imgSecond{
+            order: 2;
+            width: 344px;
+            height: 231px;
+        }
+        
+
+    }
+
+    .footer{
+        &__text{
+            margin-top: 160px;
+        }
+    }
+}

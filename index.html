@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт с играми</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header center">
+        <div class="top">
+            <h1 class="top__title">Добро пожаловать на мой сайт !</h1>
+            <p class="top__text">
+                Вам предстоит пройти несколько увлекательных игр. 
+                Если готов нажимай <span class="top__span">поехали</span> и <span class="top__span">приступай</span> 
+            </p>
+            <button class="top__button">Поехали!</button>
+        </div>
+    </header>
+
+    <section class="game center">
+        <section class="game__list center">
+            <div class="game__item">
+                <a href="#" class="game__link">Игра 1</a>
+            </div>
+
+            <div class="game__item">
+                <a href="#" class="game__link">Игра 2</a>
+            </div>
+            
+            <div class="game__item">
+                <a href="#" class="game__link">Игра 3</a>
+            </div>
+        </section>
+    </section>
+
+    <section class="play center">
+        <div class="play__container">
+            <div class="play__info">
+                <h2 class="play__title">Времена года</h2>
+                <p class="play__text">
+                    Нажмите кнопку играть, введите номер месяца (от 1 до 12) 
+                    и вы узнаете к какому времени года он относится
+                </p>
+                <button class="play__button" onclick="firstGame()">Играть!</button>
+            </div>
+            
+            <img src="./img/play-item-1.png" alt="Game 1" class="play__img">
+              
+        </div>
+    </section>
+
+    <section class="play center">
+        <div class="play__container play__containerSecond">
+            <img src="./img/play-item-2.png" alt="Game 2" class="play__imgSecond">
+            
+            <div class="play__info play__infoSecond">
+                <h2 class="play__title">Запомни слова</h2>
+                
+                <p class="play__text play__textSecond ">
+                    При нажатии на кнопку играть, 
+                    вы увидите несколько слов, которые вам необходимо запомнить.
+                </p>
+                <button class="play__button" onclick="secondGame()">Играть!</button>
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="play center playLast">
+        <div class="play__container play__containerLast">
+            <div class="play__info play__infoLast">
+                <h2 class="play__title">Игра в загадки</h2>
+                <p class="play__textLast">
+                    Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. 
+                    У вас будет три попытки и две подсказки.
+                </p>
+                <button class="play__button" onclick="lastGame()">Играть!</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer center">
+        <p class="footer__text">Все права защищены</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
